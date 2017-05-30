@@ -1,0 +1,17 @@
+Git Course on Udacity Reflections for Lesson 2
+
+Question 1:
+What happens when you initialize a repository? Why do you need to do it?
+
+Answer:
+When you initialize a repository, git will create a file ".git" that will start to track changes to your files
+in the directory that you initialized Git in.  We need to do this so we can track changes, using the commit command.
+
+Question 2:
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Answer:
+The staging area is this middle ground between the working directory and the repository, a sort of limbo.  I believe
+it is useful as a way to 1) make sure you are ready to commit the file or files to the repository as is, 2) double
+check if the file or files you chose are the right ones you want to commit 3) group together files that go together
+or are dependent on each other.
