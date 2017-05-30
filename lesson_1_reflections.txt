@@ -1,0 +1,67 @@
+Git course on Udacity May 27, 2017  Reflections for lesson 1
+
+Question 1:
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Answer:
+Using the commmand "diff -u old-file new-file", it made it easier to compare sections of the file that had changed
+and see 1)what had changed and 2)if it was typed correctly.  In this case, the word "space" was typed as "spacr" and 
+I was able to catch and correct it.
+
+Question 2:
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Answer:
+As you work on a file, you can see what you have done, what has worked and what hasn't so you have a better
+understanding of how you could go about tackling a particular problem without repeating things you have already
+tried.  Also, if you already know what you have done, you are better able to focus on what still needs to be 
+done, ie if this particular file needs five functions to be programmed and you already know that three of them
+are done, you can concentrate on the remaining two.
+
+Question 3:
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having
+versions automatically saved, like Google Docs does?
+
+Answer:
+Pros - You can decide when to save, whether it be after finishing up a particle piece of a program, fixing a bug or perhaps
+just trying a different way to solve a problem. 
+
+Cons - You might forget to save your progress or put it off until you finish the whole thing. Saving automatically can create
+a lot of unnecessary save points that won't help or might hinder you or a team from trying to see the flow of progress.
+
+Question 4:
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like
+Google Docs, treat each file seperately?
+
+Answer:
+I think it has to do with the purpose of the application.  Google Docs is used to make documents, spreadsheets, etc on the
+cloud.  That is the main purpose of the program.  Version control is an after thought, or more like luxury, "just in case"
+something happens before you can save your progress, they automatically save it for you.  Git on the other hand was
+specifically designed for version control and thus it makes sense that if you have a bunch of files linked together that you
+would want to update\save\keep a history of them all in one place.
+
+Question 5:
+How can you use the commands 'git log' and 'git diff' to view the history of files?
+
+Answer:
+'git log' will give you the whole history of a file from the start to the last commit, as long as you have been commiting the
+changes to the file regularly.  'git diff' will give the the history between two commits, so that you can see what has changed
+between the two versions of the file.
+
+Question 6:
+How might using version control make you more confident to make changes that could break something?
+
+Answer:
+While using version control, you could always revert back to a previous iteration of the file you are working on, so that, if
+you are a fork in the road in your project, you can save a version of the file you are working on and continue on with your
+work to see if your current idea for a solution will work.  If it doesn't, then you can revert back to the beginning and start
+again and again and again until you found the right solution to your problem without the fear of trying to remember everything
+you might have changed and broke trying to get to your solution.
+
+Question 7:
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Answer:
+I want to use Git to help with going through "P1xt"'s' guide on becoming a software developer using JavaScript and other
+languages.  Git will be useful in keeping my work on programming, keeping the history and to make sure I don't screw up any
+of my programs to the point where I have to start all over again.
