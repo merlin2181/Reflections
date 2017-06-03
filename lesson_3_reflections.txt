@@ -1,0 +1,8 @@
+Lesson 3 Reflections file
+
+Question 1:
+When would you want to use a remote repository rather than keeping all your work local?
+
+Answer:
+I would want a remote repository if I were to travel a lot, working in a group setting or just wanted to keep a back up of my data.
+All of these options make keeping all you work local less than ideal.
