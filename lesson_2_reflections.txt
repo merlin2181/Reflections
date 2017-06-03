@@ -15,3 +15,49 @@ The staging area is this middle ground between the working directory and the rep
 it is useful as a way to 1) make sure you are ready to commit the file or files to the repository as is, 2) double
 check if the file or files you chose are the right ones you want to commit 3) group together files that go together
 or are dependent on each other.
+
+Question 3:
+How can you use the staging area to make sure you have one commit per logical change?
+
+Answer:
+One way is to use the "git diff --staged" command.  This will compare the file(s) in the staging area to the file(s)
+in the most recent commit.  From there, you can see what was actually changed and if it is indeed one logical change
+or more and revise the file(s) in the staging area from there.
+
+Question 4:
+What are some situations when branches would be helpful in keeping your history organinzed? How would branches help?
+
+Answer:
+Branches would be helpful when your program is running fine, but you would like to make some changes anyway. Perhaps
+you want to translate your program into a different language or make it harder or easier or change the layout and
+colors.  Branches would allow you to do this by creating a copy of your program seperate from the main copy in which
+you could tinker around with your program without risking an already working file.  By breaking off into different
+branches from your main program, you can keep a seperate history of your main working program and whatever
+experimental changes you make and, in addition, keep a seperate history of each experimental change you make.
+
+Question 5:
+How do the diagrams help you visualize the branch structure?
+
+Answer:
+The diagrams are akin to a roadmap of the repository.  The diagrams show where a branch was created and for what while
+the rest of the project continues on.  It is also useful for seeing the history of the project up to the current point.
+
+Question 6:
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Answer:
+When you merge two branches together, you combine the code from the two branches into one project. So say you were working
+on a Space invaders game, and one branch was the master branch of the game and one branch was the individual colors for the 
+invaders, the ship and the bullets.  When you were ready to add the color to the game, you could merge the two into one
+master branch and then your Space Invaders game would have color.  The diagram is a visualization of the project, sort of
+like a family tree.  When you merge two branches, you connect them together and thus both the branches history of parent
+commits get joined together where as if you just renamed the branch, you would lose parent commits from the other branch.
+
+Question 7:
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+Answer:
+Pros: saves time and aggravation, Git automatically combines the codes together, spares you frustration of making a mistake
+and creating a bug by doing it yourself.
+Cons: Git doesn't always know which code is correct to use so you'll have to deal with merge conflicts and using your team to
+figure out the conflicts together.
