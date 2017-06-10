@@ -4,24 +4,47 @@ Question 1:
 When would you want to use a remote repository rather than keeping all your work local?
 
 Answer:
-I would want a remote repository if I were to travel a lot, working in a group setting or just wanted to keep a back up of my data.
+I would want a remote repository if I were to travel a lot, working in a group setting or just wanted to keep a back up of my
+data.
 All of these options make keeping all you work local less than ideal.
 
 Quesiton 2:
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote
+repository?
 
 Answer:
-You might want to pull changes manually if you have been working in your repository on your local machine while your team members were working in the GitHub repository.  There may be merge conflicts or you may end up getting your work erased.
+You might want to pull changes manually if you have been working in your repository on your local machine while your team
+members were working in the GitHub repository.  There may be merge conflicts or you may end up getting your work erased.
 
 Question 3:
 Describe the diggerences between forks, clones and branches. When would you use one instead of another?
 
 Answer:
-A branch is a seperate path from the file(s) you are working on.  A clone is when you copy a repository from a remote location to a local location or vice versa or even local to local (if you decided to move the contents on your computer). A fork is a type of clone, but only pertains to GitHub and allows you to clone another person's (or group's) repository into your own repository that you can then make edits and changes to.  Choosing to use a fork, branch or clone depends upon your situation. I would use a branch if I decided to work on a new feature for my program without messing with the actual program itself. I would use clone to copy my repository to/from GitHub from/to my computer.  As mentioned earlier, I would use fork to copy someone's repository on GitHub to my own personal repository so that I can work on the program(s) and/or file(s)
+A branch is a seperate path from the file(s) you are working on.  A clone is when you copy a repository from a remote location
+to a local location or vice versa or even local to local (if you decided to move the contents on your computer). A fork is a
+type of clone, but only pertains to GitHub and allows you to clone another person's (or group's) repository into your own
+repository that you can then make edits and changes to.  Choosing to use a fork, branch or clone depends upon your situation. I
+would use a branch if I decided to work on a new feature for my program without messing with the actual program itself. I would
+use clone to copy my repository to/from GitHub from/to my computer.  As mentioned earlier, I would use fork to copy someone's
+repository on GitHub to my own personal repository so that I can work on the program(s) and/or file(s)
+
+Question 4:
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Answer:
+If you are collaborating with a group of people on a project, then having an updated copy of the remote stored locally would be
+beneficial.  It would help reduce merge conflicts, save time in writing code or debugging or give you something timely to work
+on if you need to work on your local machine.
+
 
 /-- Commmands --/
 git remote	--	lists the names of remote servers that are connected to GitHub
 git remote -v  --  verbose option for git remote, it shows the url for pulling and pushing to your online repository
-git remote add <name> <url>  --  command to add a remote to your repository, name it and link it to a specific url. A default name is usually "Origin" but could be named anything you want
-git push <name of remote> <name of branch>  --  this will push your selected branch on your local repository to your Github repository
-git pull <name of remote> <name of branch>  --  this will pull your selected branch on you GitHub repository to your local repository
+git remote add <name> <url>  --  command to add a remote to your repository, name it and link it to a specific url. A default
+name is usually "Origin" but could be named anything you want
+git push <name of remote> <name of branch>  --  this will push your selected branch on your local repository to your Github
+repository
+git pull <name of remote> <name of branch>  --  this will pull your selected branch on you GitHub repository to your local
+repository  // this will also perform the same tasks as 'git fetch <name of remote>' and
+'git merge master <name of remote>/master'
+git fetch <name of remote> -- pulls down the GitHub repository and creates a branch on your local repository
