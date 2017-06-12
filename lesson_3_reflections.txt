@@ -36,6 +36,14 @@ If you are collaborating with a group of people on a project, then having an upd
 beneficial.  It would help reduce merge conflicts, save time in writing code or debugging or give you something timely to work
 on if you need to work on your local machine.
 
+Question 5:
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Answer:
+One could collaborate by using traditional means of communication.  You could have in-person meetings, phone calls or
+collaborate via e-mail.  Git and GitHub seem to be an easier solution as your project is centralized and available 24/7 with
+comments and critiques. Meetings, phone calls and back and forth e-mail seem like progress would be hindered more than helped.
+
 
 /-- Commmands --/
 git remote	--	lists the names of remote servers that are connected to GitHub
