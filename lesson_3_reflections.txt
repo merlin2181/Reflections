@@ -48,7 +48,12 @@ Question 6:
 When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
 Answer:
-If master is running correctly, any changes you might want to make would be better to do on a seperate branch in Git. This way, when you do make a change that might affect the master program from running correctly, it will be done outside your master program.  Also, it is useful to work on branches when in a collaborative setting.  This way a group of peers can look at your code and decide whether it fits within the master or if it still needs work.  When making changes directly in master, you don't have to worry about keeping track of multiple branches in your project and any bugs could theorectically be found using the 'git diff' command.
+If master is running correctly, any changes you might want to make would be better to do on a seperate branch in Git. This way,
+when you do make a change that might affect the master program from running correctly, it will be done outside your master
+program.  Also, it is useful to work on branches when in a collaborative setting.  This way a group of peers can look at your
+code and decide whether it fits within the master or if it still needs work.  When making changes directly in master, you don't
+have to worry about keeping track of multiple branches in your project and any bugs could theorectically be found using the
+'git diff' command.
 
 
 /-- Commmands --/
